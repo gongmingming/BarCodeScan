@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" >
+
+       <RadioGroup
+            android:id="@+id/main_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:background="@drawable/maintab_toolbar_bg"
+            android:gravity="start"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/mainTabs_radio_input"
+                style="@style/mainTabs_radio"
+                android:button="@null"
+                android:drawableTop="@drawable/input"
+                android:text="@string/input"
+                android:textColor="@drawable/tabhost_text_color" 
+                android:textSize="6pt"/>
+
+            <RadioButton
+                android:id="@+id/mainTabs_radio_sold"
+                style="@style/mainTabs_radio"
+                android:button="@null"
+                android:drawableTop="@drawable/output"
+                android:text="@string/sold"
+                android:textColor="@drawable/tabhost_text_color"
+                android:textSize="6pt" />
+
+
+            <RadioButton
+                android:id="@+id/mainTabs_radio_introduct"
+                style="@style/mainTabs_radio"
+                android:button="@null"
+                android:drawableTop="@drawable/relation"
+                android:text="@string/introduction"
+                android:textColor="@drawable/tabhost_text_color"
+                android:textSize="6pt" />
+        </RadioGroup>
+  </LinearLayout>

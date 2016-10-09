@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zkc.barcodescan"
+    android:versionCode="2"
+    android:versionName="2.6.5.13" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INJECT_EVENT" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" >
+    </uses-permission>
+    <!-- 往sdcard中写入数据的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <!-- 在sdcard中创建/删除文件的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.NoActionBar" >
+
+        <!-- 按键广播 -->
+        <receiver
+            android:name="com.zkc.Receiver.RemoteControlReceiver"
+            android:permission="com.zkc.keycode" >
+            <intent-filter>
+                <action android:name="com.zkc.keycode" />
+            </intent-filter>
+        </receiver>
+        <!-- 广播接收 -->
+        <receiver android:name="com.zkc.Receiver.StartReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </receiver>
+        <!-- 扫描服务 -->
+        <service android:name="com.zkc.Service.CaptureService" >
+            <intent-filter>
+                <action android:name="com.zkc.Service.CaptureService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.example.keshengscan.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="locked" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="BarCodeScan" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="info" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zkc.barcodescan.activity.ActivityBarcodeSetting"
+            android:label="@string/app_name"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="com.zkc.barcodescan.activity.ActivityQrcodeSetting"
+            android:label="@string/app_name"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="com.zkc.barcodescan.activity.DialogEncodingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity android:name="com.example.keshengscan.Activity_main" >
+        </activity>
+        <activity android:name="com.njupt.Fragment.Fragment01" />
+        <activity android:name="com.njupt.Fragment.Fragment02" />
+        <activity android:name="com.njupt.Fragment.Fragment03" />
+        <activity
+            android:name="com.njupt.activity.UserInfo"
+            android:windowSoftInputMode="stateHidden|stateUnchanged" >
+        </activity>
+        <activity android:name="cascade.activity.BaseActivity" />
+        <activity
+            android:name="com.njupt.activity.ResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.njupt.activity.CaptureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.njupt.activity.CameraScanMain"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.example.keshengscan.Activity_upload" >
+        </activity>
+    </application>
+
+</manifest>

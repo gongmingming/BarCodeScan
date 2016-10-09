@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\BarCodeScan\assets"><file name="ic_launcher-web.png" path="E:\BarCodeScan\assets\ic_launcher-web.png"/><file name="province_data.xml" path="E:\BarCodeScan\assets\province_data.xml"/></source><source path="E:\BarCodeScan\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\BarCodeScan\build-types\debug\assets"/></dataSet></merger>

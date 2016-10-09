@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="23"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="771346997433647"
+    token="2263525799303117856"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="11000" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="359" />
+    <task
+        name="verifier"
+        duration="93" />
+
+    <artifact
+        location="E:\BarCodeScan\build\outputs\apk\BarCodeScan-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="771346997433647"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="E:\BarCodeScan\build\outputs\apk\BarCodeScan-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

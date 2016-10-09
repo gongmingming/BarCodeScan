@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/bj2" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="5dip"
+            android:src="@drawable/input_help">
+        </ImageView>
+
+        <LinearLayout
+            android:id="@+id/input1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bjbutton"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip">
+            <Button
+                android:id="@+id/IxiangScan1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dip"
+                android:layout_marginTop="25dip"
+                android:background="@drawable/border2"
+                android:text="@string/boxscan"
+                android:textColor="#000"
+                android:textSize="7pt" />
+            <LinearLayout
+                android:id="@+id/tlxiangscan1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:gravity="center"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/xiangma"
+                    android:textColor="#000000"
+                    android:textSize="8pt" />
+
+                <TextView
+                    android:id="@+id/IxiangIDe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dip"
+                    android:background="@drawable/a"
+                    android:ems="11"
+                    android:enabled="false"
+                    android:hint="@string/print"
+                    android:singleLine="true"
+                    android:textColor="#000"
+                    android:textColorHint="#f0f"
+                    android:textSize="6pt" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/IpingScan1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/border2"
+                android:text="@string/pingscan"
+                android:textColor="#000"
+                android:textSize="7pt" />
+            <LinearLayout
+                android:id="@+id/tlpingscan1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:gravity="center"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/pingma"
+                    android:textColor="#000000"
+                    android:textSize="8pt" />
+
+                <TextView
+                    android:id="@+id/IpingIDe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dip"
+                    android:background="@drawable/a"
+                    android:ems="11"
+                    android:enabled="false"
+                    android:hint="@string/print"
+                    android:singleLine="true"
+                    android:textColor="#000"
+                    android:textColorHint="#f0f"
+                    android:textSize="6pt" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

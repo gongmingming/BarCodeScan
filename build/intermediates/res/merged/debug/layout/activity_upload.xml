@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bj2"
+    android:orientation="vertical" >
+
+   <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/upload_help">
+        </ImageView>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_marginTop="10dip"
+    android:background="@drawable/bjbutton"
+    android:orientation="vertical" >
+    
+     <TableLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="20dip"
+         android:layout_marginRight="20dip"
+         android:layout_marginTop="40dip"
+         android:gravity="center"
+         android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/upload2"
+                android:textSize="10pt"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/savePath"
+                android:layout_height="match_parent"
+                android:layout_width="75dp"
+                android:ellipsize="middle"
+                android:ems="9"
+                android:singleLine="true"
+                android:textSize="6pt"
+                android:background="@drawable/a"
+                android:textColor="#000"
+                android:enabled="false"
+                android:hint="@string/print3"
+                 />
+
+            <Button
+                android:id="@+id/choosePath"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:text="@string/path"
+                android:textSize="8pt"
+                android:background="@drawable/border"
+                android:textColor="#000"
+                android:onClick="choosePath"
+                />
+        </TableRow>
+    </TableLayout>
+    
+     <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:stretchColumns="0,1,2" >
+
+        <TableRow>
+            <Button 
+                android:id="@+id/okUpload"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/okUpload"
+                android:textSize="8pt"
+                android:textColor="#000000"
+                android:background="@drawable/border2"
+				android:layout_marginTop="10dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:onClick="okUpload"
+                />
+            <Button 
+                android:id="@+id/uploadBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/delete"
+                android:textSize="8pt"
+                android:textColor="#000000"
+                android:background="@drawable/border2"
+				android:layout_marginTop="10dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                 android:onClick="uploadBack"
+                />
+            
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+</LinearLayout>

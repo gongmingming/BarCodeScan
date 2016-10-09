@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable\\border2.xml",
+        "source": "E:\\BarCodeScan\\res\\drawable\\border2.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_bg.xml",
+        "source": "E:\\BarCodeScan\\res\\drawable\\wheel_bg.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable\\wheel_val.xml",
+        "source": "E:\\BarCodeScan\\res\\drawable\\wheel_val.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
+        "source": "E:\\BarCodeScan\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable\\scan_flashlight.xml",
+        "source": "E:\\BarCodeScan\\res\\drawable\\scan_flashlight.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable\\color_cursor.xml",
+        "source": "E:\\BarCodeScan\\res\\drawable\\color_cursor.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable\\scan_photo.xml",
+        "source": "E:\\BarCodeScan\\res\\drawable\\scan_photo.xml"
+    }
+]

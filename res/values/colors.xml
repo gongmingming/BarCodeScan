@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="yin">#BCBBBB</color>
+    <color name="yellow">#F79307</color>
+    <color name="province_line_border">#C7C7C7</color>
+</resources>

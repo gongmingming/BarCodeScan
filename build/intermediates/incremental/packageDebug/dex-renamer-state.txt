@@ -1,0 +1,7 @@
+#Sat Oct 08 15:05:56 CST 2016
+base.0=E\:\\BarCodeScan\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b92088e2d6c08dbd36d783e6154266e5b6fb3df3
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\BarCodeScan\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f5f9c64f510b81fd6b6c36b148172030c58ca57c\\classes.dex
+base.1=E\:\\BarCodeScan\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_f5f9c64f510b81fd6b6c36b148172030c58ca57c
+file.0=E\:\\BarCodeScan\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b92088e2d6c08dbd36d783e6154266e5b6fb3df3\\classes.dex

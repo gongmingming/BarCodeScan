@@ -1,0 +1,387 @@
+[
+    {
+        "outputFile": "E:\\BarCodeScan\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 43,
+                    "endOffset": 94
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 147,
+                        "endColumn": 43,
+                        "endOffset": 186
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 99,
+                    "endColumn": 43,
+                    "endOffset": 138
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 657,
+                        "endColumn": 43,
+                        "endOffset": 696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 143,
+                    "endColumn": 50,
+                    "endOffset": 189
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 306,
+                        "endColumn": 50,
+                        "endOffset": 352
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 194,
+                    "endColumn": 74,
+                    "endOffset": 264
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 357,
+                        "endColumn": 74,
+                        "endOffset": 427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 269,
+                    "endColumn": 55,
+                    "endOffset": 320
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 550,
+                        "endColumn": 55,
+                        "endOffset": 601
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 325,
+                    "endColumn": 52,
+                    "endOffset": 373
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 432,
+                        "endColumn": 52,
+                        "endOffset": 480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 378,
+                    "endColumn": 64,
+                    "endOffset": 438
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 485,
+                        "endColumn": 64,
+                        "endOffset": 545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 443,
+                    "endColumn": 47,
+                    "endOffset": 486
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endColumn": 47,
+                        "endOffset": 234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 491,
+                    "endColumn": 66,
+                    "endOffset": 553
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 239,
+                        "endColumn": 66,
+                        "endOffset": 301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 558,
+                    "endColumn": 50,
+                    "endOffset": 604
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 606,
+                        "endColumn": 50,
+                        "endOffset": 652
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 609,
+                    "endColumn": 46,
+                    "endOffset": 651
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 46,
+                        "endOffset": 142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 656,
+                    "endColumn": 43,
+                    "endOffset": 695
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 43,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 700,
+                    "endColumn": 36,
+                    "endOffset": 732
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 780,
+                        "endColumn": 36,
+                        "endOffset": 812
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 737,
+                    "endColumn": 35,
+                    "endOffset": 768
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 701,
+                        "endColumn": 35,
+                        "endOffset": 732
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 773,
+                    "endColumn": 42,
+                    "endOffset": 811
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 737,
+                        "endColumn": 42,
+                        "endOffset": 775
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 816,
+                    "endColumn": 49,
+                    "endOffset": 861
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 862,
+                        "endColumn": 49,
+                        "endOffset": 907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 866,
+                    "endColumn": 61,
+                    "endOffset": 923
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 912,
+                        "endColumn": 61,
+                        "endOffset": 969
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 928,
+                    "endColumn": 39,
+                    "endOffset": 963
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1015,
+                        "endColumn": 39,
+                        "endOffset": 1050
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 968,
+                    "endColumn": 44,
+                    "endOffset": 1008
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 817,
+                        "endColumn": 44,
+                        "endOffset": 857
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1013,
+                    "endColumn": 40,
+                    "endOffset": 1049
+                },
+                "from": {
+                    "file": "E:\\BarCodeScan\\res\\values-zh-rcn\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 974,
+                        "endColumn": 40,
+                        "endOffset": 1010
+                    }
+                }
+            }
+        ]
+    }
+]

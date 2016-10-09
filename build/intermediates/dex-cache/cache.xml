@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\BarCodeScan\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="4e605ae1152342071a63c827f67a6c0a9b6de33f">
+        <dex dex="E:\BarCodeScan\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b92088e2d6c08dbd36d783e6154266e5b6fb3df3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BarCodeScan\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="0ebc61243194756352581561bf13f98a1b8130f9">
+        <dex dex="E:\BarCodeScan\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f5f9c64f510b81fd6b6c36b148172030c58ca57c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BarCodeScan\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="33b27a8d2a5b87e6eb6c60e87a5374ffbfeacc3a">
+        <dex dex="E:\BarCodeScan\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_2d7c8f66d457fa91c6244696a369c7252e0b544f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BarCodeScan\libs\zxing.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6fe22c135f19470d05b0816d5996c442ef67da3f">
+        <dex dex="E:\BarCodeScan\build\intermediates\transforms\dex\debug\folders\1000\2\zxing_9a500f31434ff280679a3d247725085c430f00fc\classes.dex" />
+    </item>
+
+</items>

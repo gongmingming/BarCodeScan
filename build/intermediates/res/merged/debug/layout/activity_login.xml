@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maintab_toolbar_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.keshengscan.LoginActivity" >
+   
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10.0dip" >
+		<ImageView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/kesheng_scan"
+		    android:layout_marginTop="20dip"/>	
+		
+            <EditText
+                android:id="@+id/userNameText"
+                android:layout_width="match_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginRight="12.0dip"
+                android:layout_marginTop="15.0dip"
+                android:drawableLeft="@drawable/user"
+                android:drawablePadding="15.0dip"
+                android:ems="10"
+                android:hint="@string/users"
+                android:inputType="text"
+                android:paddingBottom="2.0dip"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="15.0dip"
+                android:paddingTop="2.0dip"
+                android:singleLine="true"
+                android:textColorHint="#ffffff"
+                android:textSize="16.0sp"
+                android:textColor="#fff" 
+                android:textCursorDrawable="@null"/>
+
+            <EditText
+                android:id="@+id/passwdText"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginBottom="20.0dip"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginRight="12.0dip"
+                android:layout_marginTop="20.0dip"
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="15.0dip"
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:paddingBottom="2.0dip"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="15.0dip"
+                android:paddingTop="2.0dip"
+                android:singleLine="true"
+                android:textColorHint="#ffffff"
+                android:textSize="16.0sp"
+                android:textColor="#fff"
+                android:textCursorDrawable="@null"
+                />
+                            
+             <CheckBox  
+            android:id="@+id/RememberPw"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:layout_below="@id/passwdText"  
+            android:layout_marginLeft="12dip"  
+            android:text="@string/RPW"  
+            android:textColor="#ffffff" />
+
+              <CheckBox  
+            android:id="@+id/AutoLogin"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:layout_below="@id/RememberPw"  
+            android:layout_marginLeft="12dip"  
+            android:text="@string/autoLogin"  
+            android:textColor="#ffffff" />
+             
+           
+            <Button
+                android:id="@+id/bnLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginRight="12.0dip"
+                android:singleLine="true"
+                android:text="@string/login"
+                android:textColor="#ffffffff"
+                android:textSize="18.0sp" />
+            <Button
+                android:id="@+id/noNetworkLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginLeft="12.0dip"
+                android:layout_marginRight="12.0dip"
+                android:singleLine="true"
+                android:text="@string/noNetLogin"
+                android:textColor="#ffffffff"
+                android:textSize="18.0sp" />
+           
+          
+        </LinearLayout>
+
+    
+
+</RelativeLayout>

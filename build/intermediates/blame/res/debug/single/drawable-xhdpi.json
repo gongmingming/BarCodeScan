@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\scanphotonormal.png",
+        "source": "E:\\BarCodeScan\\res\\drawable-xhdpi\\scanphotonormal.png"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\scanflashlightnormal.png",
+        "source": "E:\\BarCodeScan\\res\\drawable-xhdpi\\scanflashlightnormal.png"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\scanphotopressed.png",
+        "source": "E:\\BarCodeScan\\res\\drawable-xhdpi\\scanphotopressed.png"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\scanflashlightpressed.png",
+        "source": "E:\\BarCodeScan\\res\\drawable-xhdpi\\scanflashlightpressed.png"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\qr_code_bg.9.png",
+        "source": "E:\\BarCodeScan\\res\\drawable-xhdpi\\qr_code_bg.9.png"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "E:\\BarCodeScan\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\scanmask.png",
+        "source": "E:\\BarCodeScan\\res\\drawable-xhdpi\\scanmask.png"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\scanline.png",
+        "source": "E:\\BarCodeScan\\res\\drawable-xhdpi\\scanline.png"
+    }
+]

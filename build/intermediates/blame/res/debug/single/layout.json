@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\userinfo.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\userinfo.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bottom.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\fragment_bottom.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_input.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\activity_input.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_barcode_qrcodesetting.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\activity_barcode_qrcodesetting.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_barcode_encoding.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\activity_barcode_encoding.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\activity_capture.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sold.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\activity_sold.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_barcode_barcodesetting.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\activity_barcode_barcodesetting.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\camerascan_main.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\camerascan_main.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_upload.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\activity_upload.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_barcode_main.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\activity_barcode_main.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_result.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\activity_result.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\activity_introduct.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\activity_introduct.xml"
+    },
+    {
+        "merged": "E:\\BarCodeScan\\build\\intermediates\\res\\merged\\debug\\layout\\inputstor_main.xml",
+        "source": "E:\\BarCodeScan\\res\\layout\\inputstor_main.xml"
+    }
+]

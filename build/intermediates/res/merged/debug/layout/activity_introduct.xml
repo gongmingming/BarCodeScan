@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bj2" 
+    android:padding="15dp">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@drawable/bjbutton"
+     android:orientation="vertical" >
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="26sp"
+        android:textColor="#000000"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/developname" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textColor="#000000"
+         android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introduct" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textColor="#000000"
+         android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address" />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+        android:layout_marginTop="15dp"
+        android:autoLink="phone"
+        android:textSize="16sp"
+        android:textColor="#000000"
+         android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电话：" />
+      <TextView
+        android:layout_marginTop="15dp"
+        android:autoLink="phone"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:autoLink="email"
+        android:textSize="16sp"
+        android:textColor="#000000"
+         android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:autoLink="web"
+        android:textSize="16sp"
+        android:textColor="#000000"
+         android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/website" />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="38sp"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+  </LinearLayout>
+
+</LinearLayout>

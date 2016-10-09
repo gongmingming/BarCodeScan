@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bj2"
+            android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bjbutton"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+            android:text="农户信息采集"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip"
+            android:gravity="center">
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/border2"
+                android:text="用户名字"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="9pt" />
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dip"
+                android:background="@drawable/a"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:hint="默认汉字型"
+                android:textColor="#000"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="7pt" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip"
+            android:gravity="center">
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/border2"
+                android:text="手机号码"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="9pt" />
+            <EditText
+                android:id="@+id/telnum"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dip"
+                android:background="@drawable/a"
+                android:ems="11"
+                android:hint="默认数字型"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:textColor="#000"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:textSize="7pt" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/border2"
+            android:text="选择省市区"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="9pt" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:gravity="center">
+
+            <widget.WheelView
+                android:id="@+id/id_province"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </widget.WheelView>
+            <widget.WheelView
+                android:id="@+id/id_city"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </widget.WheelView>
+            <widget.WheelView
+                android:id="@+id/id_district"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+            </widget.WheelView>
+        </LinearLayout>
+        <Button
+            android:id="@+id/Iupload3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dip"
+            android:layout_marginTop="20dip"
+            android:layout_marginBottom="25dip"
+            android:background="@drawable/border2"
+            android:text="@string/upload"
+            android:textColor="#000"
+            android:textSize="8pt" />
+    </LinearLayout>
+</ScrollView>
